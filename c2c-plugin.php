@@ -57,6 +57,28 @@ abstract class c2c_RestrictUsernames_Plugin_048 {
 	protected $saved_settings     = false;
 	protected $saved_settings_msg = '';
 
+	protected $admin_options_name;
+	protected $config;
+	protected $disable_contextual_help;
+	protected $disable_update_check;
+	protected $hook_prefix;
+	protected $form_name;
+	protected $menu_name;
+	protected $name;
+	protected $nonce_field;
+	protected $settings_page;
+	protected $show_admin;
+	protected $textdomain;
+	protected $textdomain_subdir;
+	protected $author_prefix;
+	protected $id_base;
+	protected $options_page;
+	protected $plugin_basename;
+	protected $plugin_file;
+	protected $plugin_path;
+	protected $u_id_base;
+	protected $version;
+
 	private   $setting_index      = 0;
 
 	/**
